@@ -1,7 +1,7 @@
 -----------
 Installation:
 
-gitclone https://github.com/supercow-hackz/demonddos
+git clone https://github.com/supercow-hackz/demonddos
 ok ur gud
 
 ------------
