@@ -1,3 +1,9 @@
+-----------
+Installation:
+
+gitclone https://github.com/supercow-hackz/demonddos
+ok ur gud
+
 ------------
 
 
