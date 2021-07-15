@@ -6,11 +6,14 @@ import re
 import urllib.request
 import os
 import sys
+
 # coded by sable (Just cause you stole the code doesnt mean you can code lmfao)
+
 from bs4 import BeautifulSoup
 
 import logging
-logging.getLogger("scapy.runtime").setLevel(logging.ERROR) 
+logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
+
 if sys.platform.startswith("linux"): 
 	from scapy.all import * 
 elif sys.platform.startswith("freebsd"): 
@@ -34,8 +37,7 @@ DDD:::::DDDDD:::::D
 DDD:::::DDDDD:::::D  e::::::::e          m::::m   m::::m   m::::mo:::::ooooo:::::o  n::::n    n::::n
 D:::::::::::::::DD    e::::::::eeeeeeee  m::::m   m::::m   m::::mo:::::::::::::::o  n::::n    n::::n
 D::::::::::::DDD       ee:::::::::::::e  m::::m   m::::m   m::::m oo:::::::::::oo   n::::n    n::::n
-DDDDDDDDDDDDD            eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm   ooooooooooo     nnnnnn    nnnnnn
-                                                                                                                                                                                                    
+DDDDDDDDDDDDD            eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm   ooooooooooo     nnnnnn    nnnnnn                                                                                                                                                                                                   
 							coded by Sable
 	''') 
 
@@ -119,7 +121,7 @@ def floodmode():
 		except:
 			pass
 	else:
-		print ("You mistyped, try again.")
+		print ("did you miss type? try again.")
 		floodmode()
 
 def floodport():
@@ -271,7 +273,7 @@ def multiplication():
 	try:
 		multiple = int(input("Insert a number of multiplication for the attack [(1-5=normal)(50=powerful)(100 or more=bomb)]: "))
 	except ValueError:
-		print("You mistyped, try again.\n")
+		print("did you miss type? try again.\n")
 		multiplication()
 	begin()
 
